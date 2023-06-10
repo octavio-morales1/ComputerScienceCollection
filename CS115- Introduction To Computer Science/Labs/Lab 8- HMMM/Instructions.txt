@@ -1,0 +1,11 @@
+There are four steps:
+
+First, download  hmmm18.zip Download hmmm18.zipand unzip it in the directory where you want to work. 
+
+Second, try the hmmmDemo.py file in IDLE -- it's the demo file you have seen during lectures.  Make sure you can change which hmmm program runs when you load (using the F5 key), and notice how hmmm programs are provided as named strings like Example1 and Example2.
+
+Third, copy hmmmDemo.py to lab8.py and add your name and the pledge at the beginning.  You will add a hmmm program which should be named Fibonacci.
+
+Fourth, read this document which specifies what your program should do: lab8dn.pdfDownload lab8dn.pdf
+
+Hint: sketch your design using pseudocode or a flowchart before writing hmmm instructions.

@@ -1,0 +1,1 @@
+The skips in homework assignments are due to the assignment only consisting of reading the textbook.

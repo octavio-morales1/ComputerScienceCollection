@@ -1,0 +1,1 @@
+Complete maps 1 and 2 (the empty room and the maze).  You will make two sets of rules, one that handles the empty room (starting from any location) and one that handles any maze. 

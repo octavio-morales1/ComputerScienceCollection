@@ -1,0 +1,5 @@
+Use this template: hw5_template-2.py Download hw5_template-2.py.
+
+Write the fast_lucas(n) function.
+
+Write the fast_change(amount, coins) function.

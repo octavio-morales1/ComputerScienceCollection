@@ -1,0 +1,22 @@
+Map 1 (Empty Room):
+0 **x* -> W 0
+0 **W* -> X 1
+1 x*** -> N 1
+1 N*** -> S 2
+2 ***x -> S 2
+2 ***S -> E 1
+
+Map 2 (Maze):
+0 x*** -> N 1
+0 N*** -> X 2
+1 *x** -> E 3
+1 *E** -> X 0
+2 **x* -> W 0
+2 **W* -> X 3
+3 ***x -> S 2
+3 ***S -> X 1
+
+I was given help by Audie Breslin in solving Map 2, as there was a loop problem.
+
+I pledge my honor that I have abided by the Stevens Honor System.
+Octavio Morales

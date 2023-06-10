@@ -1,0 +1,7 @@
+Read the rest of chapter 4.
+
+Do all steps of the exercise described in this file: hw7_exercise.py Download hw7_exercise.py 
+
+Submit your solution as hw7.py.
+
+Note that we're still not using loops explicitly; instead, you will use tail recursion.

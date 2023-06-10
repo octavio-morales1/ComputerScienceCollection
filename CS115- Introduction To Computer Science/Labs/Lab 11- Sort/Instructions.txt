@@ -1,0 +1,7 @@
+Do the exercises in this file: sortEx.py Download sortEx.py 
+
+These data files are needed for testing the last exercise: small_file.txt Download small_file.txtand dict.pyDownload dict.py
+
+You might be amused to use these files for testing too: prejudice.txt Download prejudice.txtand huckfinn.txtDownload huckfinn.txt
+
+Submit a python file named lab11.py.
