@@ -1,0 +1,1 @@
+Simple project to have pseudo-keybinds to doing different tasks on my computer.
