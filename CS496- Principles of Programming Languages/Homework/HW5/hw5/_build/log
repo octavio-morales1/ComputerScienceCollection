@@ -1,0 +1,6 @@
+# dune ut
+# OCAMLPARAM: unset
+# Workspace root: /home/student/Documents/shared/hw5_stub
+$ /usr/bin/nproc > /tmp/dune6f50b4.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache
