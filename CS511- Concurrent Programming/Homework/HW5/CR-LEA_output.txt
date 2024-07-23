@@ -1,0 +1,12 @@
+          MSC: 4
+              MSC: 5
+                          MSC: 3
+                      MSC: 2
+                  MSC: 1
+
+I am Node 2! I am the leader!
+                  I am Node 3 and I know the leader is node 2!
+                      I am Node 4 and I know the leader is node 2!
+                          I am Node 5 and I know the leader is node 2!
+          I am Node 1 and I know the leader is node 2!
+6 processes created
