@@ -1,0 +1,106 @@
+/*
+You will style your page using at least 5 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/
+
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans';
+    line-height: 1.6;
+    padding-bottom: 60px;
+    background-color: #eeaa00;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #653819;
+    color: #eeaa00;
+    padding: 20px 10px;
+    border: 3px solid rgb(0,0,0);
+}
+
+footer {
+    background-color: #653819;
+    position: relative;
+    width: 100%;
+    color: #eeaa00;
+    text-align: center;
+    border: 3px solid rgb(0,0,0);
+}
+
+#text-form {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#text_output {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    max-width: 800px;
+}
+
+dl {
+    margin-left: 20px;
+    padding: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+dd:last-child {
+    margin-bottom: 0;
+}
+
+.corner-image {
+    position: fixed;
+    width: 200px;
+    height: auto;
+    z-index: 1000;
+}
+
+.bottom-left {
+    left: 0;
+    bottom: 0;
+    border: 3px solid rgb(0,0,0);
+}
+
+.bottom-right {
+    right: 0;
+    bottom: 0;
+    border: 3px solid rgb(0,0,0);
+}

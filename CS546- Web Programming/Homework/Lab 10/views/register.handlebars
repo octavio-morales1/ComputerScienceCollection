@@ -1,0 +1,40 @@
+{{!--
+
+registration handelbars
+
+--}}
+
+<form id="signup-form" action="/register" method="post">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required>
+    <label for="favoriteQuote">Favorite Quote:</label>
+    <input type="text" id="favoriteQuote" name="favoriteQuote" required>
+    <label for="themePreference">Theme Preference:</label>
+    <select id="themePreference" name="themePreference">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+    <label for="role">Role:</label>
+    <select id="role" name="role">
+        <option value="admin">Admin</option>
+        <option value="user">User</option>
+    </select>
+    <button id="submitButton" type="submit">Register</button>
+    <a href="/login">Already have an account? Click here to log-in</a>
+</form>
+<div class="hidden" id="error-cont">
+   <p class="error"></p>
+</div>
+<p>Already have an account? <a href="/login">Click here to Login</a></p>
+{{#if error}}
+    <p>{{error}}</p>
+{{/if}}
+
