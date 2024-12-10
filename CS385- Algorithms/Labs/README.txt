@@ -1,1 +1,0 @@
-All gaps in labs are due to them being on paper assignments.
