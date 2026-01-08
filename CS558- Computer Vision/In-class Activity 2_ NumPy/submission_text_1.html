@@ -1,0 +1,43 @@
+<p><img src="/users/57275/files/16136553/preview?verifier=twofEY5qiTgtB9sJJsB1aDRiYPalo7dC6cGZjEgM" alt="chrome_jWLyb97MC8.png"><img src="/users/57275/files/16136554/preview?verifier=xLvsGQ6KF052LN4QIRqVjcMBdUolcZvhX9UzFV2W" alt="chrome_2MfeANpxE8.png"></p>
+<p>Exercise 1:</p>
+<div>
+<div><span>num_students = </span><span>4</span></div>
+<div><span>num_grades = </span><span>5</span> <span>#name changed like in class</span></div>
+<br>
+<div><span># Write your solution below.</span></div>
+<div><span># a</span></div>
+<div><span>temp= np.arange(num_students * num_grades)</span></div>
+<div><span>grades = temp.reshape(num_students, num_grades)</span></div>
+<div><span>print</span><span>(</span><span>"Grades Table:"</span><span>)</span></div>
+<div><span>print</span><span>(grades)</span></div>
+</div>
+<div># b<br>
+<div><span>print</span><span>(</span><span>"Julie's Grades:"</span><span>)</span></div>
+<div><span>print</span><span>(grades[</span><span>2</span><span>])</span></div>
+</div>
+<div># c<br>
+<div><span>temp= grades[:, </span><span>4</span><span>]</span></div>
+<div><span>print</span><span>(</span><span>"PSet 4 Grades:"</span><span>)</span></div>
+<div><span>print</span><span>(temp)</span></div>
+</div>
+<p>&nbsp;</p>
+<p>Exercise 2:</p>
+<div>
+<div><span>a = np.array(np.random.random((</span><span>10</span><span>,</span><span>10</span><span>)))</span></div>
+<div><span>print</span><span>(a)</span></div>
+<div><span>maxSum= a[</span><span>0</span><span>][</span><span>0</span><span>]</span></div>
+<div><span>print</span><span>(maxSum)</span></div>
+<div><span>bestSquare= </span><span>0</span></div>
+<br>
+<div><span>for</span><span> x </span><span>in</span> <span>range</span><span>(</span><span>8</span><span>):</span></div>
+<div><span>&nbsp; </span><span>for</span><span> y </span><span>in</span> <span>range</span><span>(</span><span>8</span><span>):</span></div>
+<div><span>&nbsp; &nbsp; square= a[x:x+</span><span>3</span><span>,y:y+</span><span>3</span><span>]</span></div>
+<div><span>&nbsp; &nbsp; total= square.</span><span>sum</span><span>()</span></div>
+<div><span>&nbsp; &nbsp; </span><span>if</span><span> (total&gt; maxSum):</span></div>
+<div><span>&nbsp; &nbsp; &nbsp; maxSum= total</span></div>
+<div><span>&nbsp; &nbsp; &nbsp; bestSquare=square</span></div>
+<br>
+<div><span>print</span><span>()</span></div>
+<div><span>print</span><span>(</span><span>"Maximum 3x3 Sub-Array"</span><span>)</span></div>
+<div><span>print</span><span>(bestSquare)</span></div>
+</div>
